@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* * {
+    margin: 10px 4% 10px;
+} */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+}
