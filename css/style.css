@@ -55,9 +55,9 @@ body {
     font-size: 48px;
 }
 
-.signup {
+.button{
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
     width: 150px;
     height: 50%;
     font-size: 18px;
@@ -142,4 +142,36 @@ body {
     right: 0;
     padding-right: 350px;
     padding-bottom: 100px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.callcontent {
+    display: flex;
+    gap: 128px;
+    background-color: #3882f6;
+    padding: 50px 100px 50px 100px;
+    border-radius: 8px;
+}
+
+.callsignup {
+    border-style: solid;
+    border-color: #f9faf8;
+    flex-wrap: nowrap;
+    height: fit-content;
+}
+
+.calltext {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.callsubtext {
+    color: #e5e7eb;
 }
