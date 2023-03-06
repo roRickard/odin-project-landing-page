@@ -26,18 +26,23 @@ body {
 .right-links {
     display: flex;
     gap: 16px;
-    color: #f9faf8;
+}
+
+.link, .small{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .placeholder{
-    width: 625px;
+    width: 500px;
     height: 250px;
     background-color: gray;
     color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px 350px 150px 150px;
+    margin: 150px 250px 150px 150px;
     flex-shrink: 0;
 }
 
@@ -50,8 +55,17 @@ body {
     font-size: 48px;
 }
 
-.small {
+.signup {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 150px;
+    height: 50%;
     font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 .container {
@@ -61,12 +75,57 @@ body {
     /*padding-left: 17%;
     padding-right: 17%;*/
     align-items: center;
+    padding-left: 0px;
 }
 
 .content {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    margin-left: 340px;
+    margin-left: 250px;
     gap: 8px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    gap: 64px;
+    padding-bottom: 150px;
+}
+
+.thumbnail {
+    height: 150px;
+    width: 150px;
+    outline: 3px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    max-width: 150px;
+}
+
+.call {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 24px;
 }
